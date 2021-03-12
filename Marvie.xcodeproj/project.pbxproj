@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF212C3725F935480087EA2B /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF212C3625F935480087EA2B /* ColorView.swift */; };
+		FF42806B25FA895C00ED65DB /* HorizontalGraphsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF42806A25FA895C00ED65DB /* HorizontalGraphsView.swift */; };
+		FF44610F25F7BE3E00812AF9 /* VerticalGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF44610E25F7BE3E00812AF9 /* VerticalGraph.swift */; };
+		FF44611425F81D2300812AF9 /* CircledNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF44611325F81D2300812AF9 /* CircledNavigationView.swift */; };
+		FF4E509925F2BCCA0036E21A /* RadialGraphsViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E509825F2BCCA0036E21A /* RadialGraphsViewUI.swift */; };
+		FF70DA3D25F135D500A2184A /* TriangleGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70DA3C25F135D500A2184A /* TriangleGraphView.swift */; };
+		FF70DA4A25F1475600A2184A /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70DA4925F1475600A2184A /* BadgeBackground.swift */; };
+		FFCD2E7925F0EEE600FC70CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD2E7825F0EEE600FC70CA /* AppDelegate.swift */; };
+		FFCD2E7B25F0EEE600FC70CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD2E7A25F0EEE600FC70CA /* SceneDelegate.swift */; };
+		FFCD2E7D25F0EEE600FC70CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD2E7C25F0EEE600FC70CA /* ContentView.swift */; };
+		FFCD2E7F25F0EEE700FC70CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFCD2E7E25F0EEE700FC70CA /* Assets.xcassets */; };
+		FFCD2E8225F0EEE700FC70CA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFCD2E8125F0EEE700FC70CA /* Preview Assets.xcassets */; };
+		FFCD2E8525F0EEE700FC70CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFCD2E8325F0EEE700FC70CA /* LaunchScreen.storyboard */; };
+		FFCD2E9025F0EEE700FC70CA /* MarvieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD2E8F25F0EEE700FC70CA /* MarvieTests.swift */; };
+		FFCD2E9B25F0EEE700FC70CA /* MarvieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD2E9A25F0EEE700FC70CA /* MarvieUITests.swift */; };
+		FFCD2EAC25F0F12B00FC70CA /* HiGuysUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD2EAB25F0F12B00FC70CA /* HiGuysUIView.swift */; };
+		FFCD2EB225F102C100FC70CA /* BackgroundHelloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD2EB125F102C100FC70CA /* BackgroundHelloView.swift */; };
+		FFD19FA225FA236C00D900C1 /* FiltersAndSerch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD19FA125FA236C00D900C1 /* FiltersAndSerch.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFCD2E8C25F0EEE700FC70CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFCD2E6D25F0EEE600FC70CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFCD2E7425F0EEE600FC70CA;
+			remoteInfo = Marvie;
+		};
+		FFCD2E9725F0EEE700FC70CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFCD2E6D25F0EEE600FC70CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFCD2E7425F0EEE600FC70CA;
+			remoteInfo = Marvie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF212C3625F935480087EA2B /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		FF42806A25FA895C00ED65DB /* HorizontalGraphsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalGraphsView.swift; sourceTree = "<group>"; };
+		FF44610E25F7BE3E00812AF9 /* VerticalGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalGraph.swift; sourceTree = "<group>"; };
+		FF44611325F81D2300812AF9 /* CircledNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircledNavigationView.swift; sourceTree = "<group>"; };
+		FF4E509825F2BCCA0036E21A /* RadialGraphsViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGraphsViewUI.swift; sourceTree = "<group>"; };
+		FF70DA3C25F135D500A2184A /* TriangleGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleGraphView.swift; sourceTree = "<group>"; };
+		FF70DA4925F1475600A2184A /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		FFCD2E7525F0EEE600FC70CA /* Marvie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marvie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFCD2E7825F0EEE600FC70CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFCD2E7A25F0EEE600FC70CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FFCD2E7C25F0EEE600FC70CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FFCD2E7E25F0EEE700FC70CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFCD2E8125F0EEE700FC70CA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FFCD2E8425F0EEE700FC70CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFCD2E8625F0EEE700FC70CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFCD2E8B25F0EEE700FC70CA /* MarvieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFCD2E8F25F0EEE700FC70CA /* MarvieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvieTests.swift; sourceTree = "<group>"; };
+		FFCD2E9125F0EEE700FC70CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFCD2E9625F0EEE700FC70CA /* MarvieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFCD2E9A25F0EEE700FC70CA /* MarvieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvieUITests.swift; sourceTree = "<group>"; };
+		FFCD2E9C25F0EEE700FC70CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFCD2EAB25F0F12B00FC70CA /* HiGuysUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiGuysUIView.swift; sourceTree = "<group>"; };
+		FFCD2EB125F102C100FC70CA /* BackgroundHelloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundHelloView.swift; sourceTree = "<group>"; };
+		FFD19FA125FA236C00D900C1 /* FiltersAndSerch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersAndSerch.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFCD2E7225F0EEE600FC70CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCD2E8825F0EEE700FC70CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCD2E9325F0EEE700FC70CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF38180F25FBA421006EDCE0 /* Selected-NavigationUI  */ = {
+			isa = PBXGroup;
+			children = (
+				FF44611325F81D2300812AF9 /* CircledNavigationView.swift */,
+			);
+			path = "Selected-NavigationUI ";
+			sourceTree = "<group>";
+		};
+		FF44610725F7931C00812AF9 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				FF4E509825F2BCCA0036E21A /* RadialGraphsViewUI.swift */,
+				FF44610E25F7BE3E00812AF9 /* VerticalGraph.swift */,
+				FF70DA3C25F135D500A2184A /* TriangleGraphView.swift */,
+				FF42806A25FA895C00ED65DB /* HorizontalGraphsView.swift */,
+			);
+			name = Graph;
+			path = HelloScreen;
+			sourceTree = "<group>";
+		};
+		FF4ED0CA25F1190900CE953F /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				FF212C3625F935480087EA2B /* ColorView.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		FFCD2E6C25F0EEE600FC70CA = {
+			isa = PBXGroup;
+			children = (
+				FFCD2E7725F0EEE600FC70CA /* Marvie */,
+				FFCD2E8E25F0EEE700FC70CA /* MarvieTests */,
+				FFCD2E9925F0EEE700FC70CA /* MarvieUITests */,
+				FFCD2E7625F0EEE600FC70CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFCD2E7625F0EEE600FC70CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFCD2E7525F0EEE600FC70CA /* Marvie.app */,
+				FFCD2E8B25F0EEE700FC70CA /* MarvieTests.xctest */,
+				FFCD2E9625F0EEE700FC70CA /* MarvieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFCD2E7725F0EEE600FC70CA /* Marvie */ = {
+			isa = PBXGroup;
+			children = (
+				FFCD2E7825F0EEE600FC70CA /* AppDelegate.swift */,
+				FFCD2E7A25F0EEE600FC70CA /* SceneDelegate.swift */,
+				FFCD2E7C25F0EEE600FC70CA /* ContentView.swift */,
+				FF38180F25FBA421006EDCE0 /* Selected-NavigationUI  */,
+				FFD19FA025FA233200D900C1 /* FiltersAndSerch */,
+				FF44610725F7931C00812AF9 /* Graph */,
+				FF4ED0CA25F1190900CE953F /* Colors */,
+				FFCD2EB025F1027B00FC70CA /* HelloScreen */,
+				FFCD2E7E25F0EEE700FC70CA /* Assets.xcassets */,
+				FFCD2E8325F0EEE700FC70CA /* LaunchScreen.storyboard */,
+				FFCD2E8625F0EEE700FC70CA /* Info.plist */,
+				FFCD2E8025F0EEE700FC70CA /* Preview Content */,
+			);
+			path = Marvie;
+			sourceTree = "<group>";
+		};
+		FFCD2E8025F0EEE700FC70CA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FFCD2E8125F0EEE700FC70CA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FFCD2E8E25F0EEE700FC70CA /* MarvieTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFCD2E8F25F0EEE700FC70CA /* MarvieTests.swift */,
+				FFCD2E9125F0EEE700FC70CA /* Info.plist */,
+			);
+			path = MarvieTests;
+			sourceTree = "<group>";
+		};
+		FFCD2E9925F0EEE700FC70CA /* MarvieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFCD2E9A25F0EEE700FC70CA /* MarvieUITests.swift */,
+				FFCD2E9C25F0EEE700FC70CA /* Info.plist */,
+			);
+			path = MarvieUITests;
+			sourceTree = "<group>";
+		};
+		FFCD2EB025F1027B00FC70CA /* HelloScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FFCD2EAB25F0F12B00FC70CA /* HiGuysUIView.swift */,
+				FFCD2EB125F102C100FC70CA /* BackgroundHelloView.swift */,
+				FF70DA4925F1475600A2184A /* BadgeBackground.swift */,
+			);
+			path = HelloScreen;
+			sourceTree = "<group>";
+		};
+		FFD19FA025FA233200D900C1 /* FiltersAndSerch */ = {
+			isa = PBXGroup;
+			children = (
+				FFD19FA125FA236C00D900C1 /* FiltersAndSerch.swift */,
+			);
+			name = FiltersAndSerch;
+			path = HelloScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFCD2E7425F0EEE600FC70CA /* Marvie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFCD2E9F25F0EEE700FC70CA /* Build configuration list for PBXNativeTarget "Marvie" */;
+			buildPhases = (
+				FFCD2E7125F0EEE600FC70CA /* Sources */,
+				FFCD2E7225F0EEE600FC70CA /* Frameworks */,
+				FFCD2E7325F0EEE600FC70CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Marvie;
+			productName = Marvie;
+			productReference = FFCD2E7525F0EEE600FC70CA /* Marvie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFCD2E8A25F0EEE700FC70CA /* MarvieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFCD2EA225F0EEE700FC70CA /* Build configuration list for PBXNativeTarget "MarvieTests" */;
+			buildPhases = (
+				FFCD2E8725F0EEE700FC70CA /* Sources */,
+				FFCD2E8825F0EEE700FC70CA /* Frameworks */,
+				FFCD2E8925F0EEE700FC70CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFCD2E8D25F0EEE700FC70CA /* PBXTargetDependency */,
+			);
+			name = MarvieTests;
+			productName = MarvieTests;
+			productReference = FFCD2E8B25F0EEE700FC70CA /* MarvieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFCD2E9525F0EEE700FC70CA /* MarvieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFCD2EA525F0EEE700FC70CA /* Build configuration list for PBXNativeTarget "MarvieUITests" */;
+			buildPhases = (
+				FFCD2E9225F0EEE700FC70CA /* Sources */,
+				FFCD2E9325F0EEE700FC70CA /* Frameworks */,
+				FFCD2E9425F0EEE700FC70CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFCD2E9825F0EEE700FC70CA /* PBXTargetDependency */,
+			);
+			name = MarvieUITests;
+			productName = MarvieUITests;
+			productReference = FFCD2E9625F0EEE700FC70CA /* MarvieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFCD2E6D25F0EEE600FC70CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					FFCD2E7425F0EEE600FC70CA = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					FFCD2E8A25F0EEE700FC70CA = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = FFCD2E7425F0EEE600FC70CA;
+					};
+					FFCD2E9525F0EEE700FC70CA = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = FFCD2E7425F0EEE600FC70CA;
+					};
+				};
+			};
+			buildConfigurationList = FFCD2E7025F0EEE600FC70CA /* Build configuration list for PBXProject "Marvie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFCD2E6C25F0EEE600FC70CA;
+			productRefGroup = FFCD2E7625F0EEE600FC70CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFCD2E7425F0EEE600FC70CA /* Marvie */,
+				FFCD2E8A25F0EEE700FC70CA /* MarvieTests */,
+				FFCD2E9525F0EEE700FC70CA /* MarvieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFCD2E7325F0EEE600FC70CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCD2E8525F0EEE700FC70CA /* LaunchScreen.storyboard in Resources */,
+				FFCD2E8225F0EEE700FC70CA /* Preview Assets.xcassets in Resources */,
+				FFCD2E7F25F0EEE700FC70CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCD2E8925F0EEE700FC70CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCD2E9425F0EEE700FC70CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFCD2E7125F0EEE600FC70CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF212C3725F935480087EA2B /* ColorView.swift in Sources */,
+				FFCD2EB225F102C100FC70CA /* BackgroundHelloView.swift in Sources */,
+				FFD19FA225FA236C00D900C1 /* FiltersAndSerch.swift in Sources */,
+				FF44611425F81D2300812AF9 /* CircledNavigationView.swift in Sources */,
+				FFCD2E7925F0EEE600FC70CA /* AppDelegate.swift in Sources */,
+				FF70DA4A25F1475600A2184A /* BadgeBackground.swift in Sources */,
+				FFCD2E7B25F0EEE600FC70CA /* SceneDelegate.swift in Sources */,
+				FFCD2E7D25F0EEE600FC70CA /* ContentView.swift in Sources */,
+				FF42806B25FA895C00ED65DB /* HorizontalGraphsView.swift in Sources */,
+				FF70DA3D25F135D500A2184A /* TriangleGraphView.swift in Sources */,
+				FFCD2EAC25F0F12B00FC70CA /* HiGuysUIView.swift in Sources */,
+				FF44610F25F7BE3E00812AF9 /* VerticalGraph.swift in Sources */,
+				FF4E509925F2BCCA0036E21A /* RadialGraphsViewUI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCD2E8725F0EEE700FC70CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCD2E9025F0EEE700FC70CA /* MarvieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCD2E9225F0EEE700FC70CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCD2E9B25F0EEE700FC70CA /* MarvieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFCD2E8D25F0EEE700FC70CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFCD2E7425F0EEE600FC70CA /* Marvie */;
+			targetProxy = FFCD2E8C25F0EEE700FC70CA /* PBXContainerItemProxy */;
+		};
+		FFCD2E9825F0EEE700FC70CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFCD2E7425F0EEE600FC70CA /* Marvie */;
+			targetProxy = FFCD2E9725F0EEE700FC70CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFCD2E8325F0EEE700FC70CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFCD2E8425F0EEE700FC70CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFCD2E9D25F0EEE700FC70CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFCD2E9E25F0EEE700FC70CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFCD2EA025F0EEE700FC70CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Marvie/Preview Content\"";
+				DEVELOPMENT_TEAM = 2TF45G4KTB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Marvie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fabu-zz.Marvie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFCD2EA125F0EEE700FC70CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Marvie/Preview Content\"";
+				DEVELOPMENT_TEAM = 2TF45G4KTB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Marvie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fabu-zz.Marvie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFCD2EA325F0EEE700FC70CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TF45G4KTB;
+				INFOPLIST_FILE = MarvieTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fabu-zz.MarvieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marvie.app/Marvie";
+			};
+			name = Debug;
+		};
+		FFCD2EA425F0EEE700FC70CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TF45G4KTB;
+				INFOPLIST_FILE = MarvieTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fabu-zz.MarvieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marvie.app/Marvie";
+			};
+			name = Release;
+		};
+		FFCD2EA625F0EEE700FC70CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TF45G4KTB;
+				INFOPLIST_FILE = MarvieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fabu-zz.MarvieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Marvie;
+			};
+			name = Debug;
+		};
+		FFCD2EA725F0EEE700FC70CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TF45G4KTB;
+				INFOPLIST_FILE = MarvieUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fabu-zz.MarvieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Marvie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFCD2E7025F0EEE600FC70CA /* Build configuration list for PBXProject "Marvie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCD2E9D25F0EEE700FC70CA /* Debug */,
+				FFCD2E9E25F0EEE700FC70CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFCD2E9F25F0EEE700FC70CA /* Build configuration list for PBXNativeTarget "Marvie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCD2EA025F0EEE700FC70CA /* Debug */,
+				FFCD2EA125F0EEE700FC70CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFCD2EA225F0EEE700FC70CA /* Build configuration list for PBXNativeTarget "MarvieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCD2EA325F0EEE700FC70CA /* Debug */,
+				FFCD2EA425F0EEE700FC70CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFCD2EA525F0EEE700FC70CA /* Build configuration list for PBXNativeTarget "MarvieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCD2EA625F0EEE700FC70CA /* Debug */,
+				FFCD2EA725F0EEE700FC70CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFCD2E6D25F0EEE600FC70CA /* Project object */;
+}
