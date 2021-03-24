@@ -26,12 +26,12 @@ struct CircledNavigationView: View {
     var body: some View {
         
             
-            ZStack(alignment: /*@START_MENU_TOKEN@*/Alignment(horizontal: .center, vertical: .center)/*@END_MENU_TOKEN@*/, content: {
+            ZStack(alignment: Alignment(horizontal: .center, vertical: .center), content: {
                 
                 GeometryReader { proxy in
                     
                 
-                    var centerZ : CGPoint =
+                    let centerZ : CGPoint =
                         CGPoint(x: proxy.size.width / 2, y: proxy.size.height / 2)
                     
                     

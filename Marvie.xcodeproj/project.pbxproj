@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		FF212C3725F935480087EA2B /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF212C3625F935480087EA2B /* ColorView.swift */; };
+		FF38501526022D6D00B50EA9 /* GreenBigCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38501426022D6D00B50EA9 /* GreenBigCardView.swift */; };
+		FF38501D2602425500B50EA9 /* UploadFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF38501C2602425500B50EA9 /* UploadFileView.swift */; };
 		FF42806B25FA895C00ED65DB /* HorizontalGraphsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF42806A25FA895C00ED65DB /* HorizontalGraphsView.swift */; };
 		FF44610F25F7BE3E00812AF9 /* VerticalGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF44610E25F7BE3E00812AF9 /* VerticalGraph.swift */; };
 		FF44611425F81D2300812AF9 /* CircledNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF44611325F81D2300812AF9 /* CircledNavigationView.swift */; };
 		FF4E509925F2BCCA0036E21A /* RadialGraphsViewUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4E509825F2BCCA0036E21A /* RadialGraphsViewUI.swift */; };
 		FF70DA3D25F135D500A2184A /* TriangleGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70DA3C25F135D500A2184A /* TriangleGraphView.swift */; };
 		FF70DA4A25F1475600A2184A /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70DA4925F1475600A2184A /* BadgeBackground.swift */; };
+		FF728F47260365250071B557 /* YellowBigCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF728F46260365250071B557 /* YellowBigCardView.swift */; };
+		FF728F4C26038F9B0071B557 /* CardPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF728F4B26038F9B0071B557 /* CardPlayView.swift */; };
+		FF728F512603B2FB0071B557 /* CardPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF728F502603B2FB0071B557 /* CardPictureView.swift */; };
+		FF728F56260508050071B557 /* SmallCardsPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF728F55260508050071B557 /* SmallCardsPlayView.swift */; };
 		FFCD2E7925F0EEE600FC70CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD2E7825F0EEE600FC70CA /* AppDelegate.swift */; };
 		FFCD2E7B25F0EEE600FC70CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD2E7A25F0EEE600FC70CA /* SceneDelegate.swift */; };
 		FFCD2E7D25F0EEE600FC70CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCD2E7C25F0EEE600FC70CA /* ContentView.swift */; };
@@ -46,12 +52,18 @@
 
 /* Begin PBXFileReference section */
 		FF212C3625F935480087EA2B /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		FF38501426022D6D00B50EA9 /* GreenBigCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenBigCardView.swift; sourceTree = "<group>"; };
+		FF38501C2602425500B50EA9 /* UploadFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadFileView.swift; sourceTree = "<group>"; };
 		FF42806A25FA895C00ED65DB /* HorizontalGraphsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalGraphsView.swift; sourceTree = "<group>"; };
 		FF44610E25F7BE3E00812AF9 /* VerticalGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalGraph.swift; sourceTree = "<group>"; };
 		FF44611325F81D2300812AF9 /* CircledNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircledNavigationView.swift; sourceTree = "<group>"; };
 		FF4E509825F2BCCA0036E21A /* RadialGraphsViewUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialGraphsViewUI.swift; sourceTree = "<group>"; };
 		FF70DA3C25F135D500A2184A /* TriangleGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleGraphView.swift; sourceTree = "<group>"; };
 		FF70DA4925F1475600A2184A /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		FF728F46260365250071B557 /* YellowBigCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowBigCardView.swift; sourceTree = "<group>"; };
+		FF728F4B26038F9B0071B557 /* CardPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPlayView.swift; sourceTree = "<group>"; };
+		FF728F502603B2FB0071B557 /* CardPictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPictureView.swift; sourceTree = "<group>"; };
+		FF728F55260508050071B557 /* SmallCardsPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCardsPlayView.swift; sourceTree = "<group>"; };
 		FFCD2E7525F0EEE600FC70CA /* Marvie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marvie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFCD2E7825F0EEE600FC70CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FFCD2E7A25F0EEE600FC70CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +116,19 @@
 			path = "Selected-NavigationUI ";
 			sourceTree = "<group>";
 		};
+		FF3850132602294600B50EA9 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				FF38501426022D6D00B50EA9 /* GreenBigCardView.swift */,
+				FF38501C2602425500B50EA9 /* UploadFileView.swift */,
+				FF728F46260365250071B557 /* YellowBigCardView.swift */,
+				FF728F4B26038F9B0071B557 /* CardPlayView.swift */,
+				FF728F502603B2FB0071B557 /* CardPictureView.swift */,
+				FF728F55260508050071B557 /* SmallCardsPlayView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
 		FF44610725F7931C00812AF9 /* Graph */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +175,7 @@
 				FFCD2E7825F0EEE600FC70CA /* AppDelegate.swift */,
 				FFCD2E7A25F0EEE600FC70CA /* SceneDelegate.swift */,
 				FFCD2E7C25F0EEE600FC70CA /* ContentView.swift */,
+				FF3850132602294600B50EA9 /* Feed */,
 				FF38180F25FBA421006EDCE0 /* Selected-NavigationUI  */,
 				FFD19FA025FA233200D900C1 /* FiltersAndSerch */,
 				FF44610725F7931C00812AF9 /* Graph */,
@@ -340,10 +366,15 @@
 			files = (
 				FF212C3725F935480087EA2B /* ColorView.swift in Sources */,
 				FFCD2EB225F102C100FC70CA /* BackgroundHelloView.swift in Sources */,
+				FF728F4C26038F9B0071B557 /* CardPlayView.swift in Sources */,
 				FFD19FA225FA236C00D900C1 /* FiltersAndSerch.swift in Sources */,
 				FF44611425F81D2300812AF9 /* CircledNavigationView.swift in Sources */,
 				FFCD2E7925F0EEE600FC70CA /* AppDelegate.swift in Sources */,
+				FF728F47260365250071B557 /* YellowBigCardView.swift in Sources */,
+				FF38501526022D6D00B50EA9 /* GreenBigCardView.swift in Sources */,
+				FF728F56260508050071B557 /* SmallCardsPlayView.swift in Sources */,
 				FF70DA4A25F1475600A2184A /* BadgeBackground.swift in Sources */,
+				FF38501D2602425500B50EA9 /* UploadFileView.swift in Sources */,
 				FFCD2E7B25F0EEE600FC70CA /* SceneDelegate.swift in Sources */,
 				FFCD2E7D25F0EEE600FC70CA /* ContentView.swift in Sources */,
 				FF42806B25FA895C00ED65DB /* HorizontalGraphsView.swift in Sources */,
@@ -351,6 +382,7 @@
 				FFCD2EAC25F0F12B00FC70CA /* HiGuysUIView.swift in Sources */,
 				FF44610F25F7BE3E00812AF9 /* VerticalGraph.swift in Sources */,
 				FF4E509925F2BCCA0036E21A /* RadialGraphsViewUI.swift in Sources */,
+				FF728F512603B2FB0071B557 /* CardPictureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
